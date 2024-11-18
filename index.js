@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+const path = require("path");
+app.use(express.static(path.join(__dirname)));
 
 app.get("/", (req, res) => {
   const file = fs.readFileSync("text.txt", "utf8");
