@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="File System Project - A system for managing and handling files efficiently.">
+    <meta name="author" content="Your Name">
+    <title>File System Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7fafc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3182ce;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.25rem;
+            margin: 10px 0;
+        }
+        main {
+            margin: 30px auto;
+            width: 80%;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.125rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 1.125rem;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            display: inline-block;
+            background-color: #3182ce;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.25rem;
+            margin-top: 20px;
+        }
+        a:hover {
+            background-color: #2b6cb0;
+        }
+        footer {
+            background-color: #3182ce;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>File System Project</h1>
+        <p>A Modern Solution for Efficient File Management</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome to the File System Project! This project is designed to offer a structured way to manage, store, and retrieve files with ease. Whether you're working with simple text files, images, or large datasets, this file system ensures quick and reliable access to your files.</p>
+            
+            <p>The system is built using modern technologies, ensuring scalability, security, and user-friendliness. It allows users to upload, retrieve, organize, and delete files seamlessly. This file system can be extended for use in various applications like cloud storage, content management systems, or file-sharing services.</p>
+
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Efficient file storage and retrieval</li>
+                <li>Easy file upload and download</li>
+                <li>Folder and file management features</li>
+                <li>Secure file handling and access control</li>
+            </ul>
+
+            <p>Explore more about the project and its features below.</p>
+        </section>
+
+        <section style="text-align: center;">
+            <a href="#features">Learn More About Features</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="File System Project - A system for managing and handling files efficiently.">
+    <meta name="author" content="Your Name">
+    <title>File System Project</title>
+    <style>
+        body {
+            background-color: #f7fafc;
+            font-family: 'Arial', sans-serif;
+            color: #4a5568;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin:10px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #319795;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
+            border-color: #319795;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #319795;
+            color: #ffffff;
+            font-size: 1.125rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2c7a7b;
+        }
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(48, 197, 152, 0.5);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/profile">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Age"  required>
+            </div>
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="number" id="age" name="contact" placeholder="Contact number"  required>
+            </div>
+
+            <div>
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" required placeholder="Bio"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">show profile</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
